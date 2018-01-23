@@ -1,0 +1,6 @@
+{
+  "name": "gotmpl-template",
+  "devDependencies": {
+    "go": "^3.0.0-rc.2"
+  }
+}

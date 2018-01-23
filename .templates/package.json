@@ -1,0 +1,14 @@
+{
+  "name": "{{ name }}",
+  "version": "0.0.0",
+  "description": "{{ description }}",
+  "main": "plugin.js",
+  "keywords": [
+    "go",
+    "plugin"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "go": "^3.0.0-rc.2"
+  }
+}
