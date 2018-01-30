@@ -10,9 +10,5 @@ go.registerCommand('install', async () => {
 
   const context = { name, description, year }
 
-  const writeReadme = await go.loadTemplate('README.md')
-  const writePackage = await go.loadTemplate('package.json')
-
-  await writeReadme(context, 'README.md')
-  await writePackage(context, 'package.json')
+  go.processTemplates('**', context)
 })
